@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <script src="js/popper.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/util.js"></script>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Poiret+One|Varela+Round|Roboto+Slab|Coustard|Bitter|Bree+Serif);
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            line-height: 1.8;
+        }
+
+        .roboto {
+            font-family: 'Roboto Slab', serif;
+            color: white;
+        }
+
+        .meio {
+            display: flex;
+            align-items: center;
+        }
+
+.trava {position: fixed; }
+
+        .head {
+            background-position: center;
+            background-size: cover;
+            background-image: url("media/two.jpg");
+            min-height: 100%;
+            background-repeat: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            padding: 40px 60px;
+        }
+
+        .avatar {
+            border-radius: 50%;
+            width: 20vh;
+        }
+
+        .post {
+            width: 100%;
+            min-width: 70%;
+        }
+
+        /*SIDEBAR*/
+        .toggle {
+            text-decoration: none;
+            font-size: 2em;
+            color: rgba(0, 0, 0, 0.61);
+            -webkit-transition: all 0.15s ease-out 0;
+            -moz-transition: all 0.15s ease-out 0;
+            transition: all 0.45s ease-out 0;
+            position: fixed;
+            top: 45%;
+            left: 0px;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+            left: -190px;
+            -webkit-transition: all 0.15s ease-out 0;
+            -moz-transition: all 0.15s ease-out 0;
+            transition: all 0.15s ease-out 0;
+            width: 9.6rem;
+            padding: 1.5em;
+            background: #000;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar li a {
+            color: #fff;
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.2em;
+            margin: 0;
+            margin-bottom: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            line-height: 200%;
+        }
+
+        .sidebar a:hover {
+            color: rgba(0, 0, 0, 0.61);
+        }
+
+        #slide:checked+.container .sidebar {
+            left: 0px;
+        }
+
+        #slide:checked+.container .toggle {
+            left: 9rem;
+        }
+
+        #slide {
+            display: none;
+        }
+
+        /*VISUALIZAR DIVS*/
+        .showmered {background-color: red; }
+        .showmegreen {background-color: green;}
+        .showmeblue {background-color: blue;}
+        .showmepurple {background-color: purple;}
+        .showmepink {background-color: pink;}
+        .showmeyellow {background-color: yellow;}
+        .showmecyan {background-color: cyan;}
+        .showmewhite {background-color: white;}
+    </style>
+</head>
+
+<body>
+
+    <header class="head " id="home">
+
+        <input type="checkbox" id="slide" name="" value="" />
+        <div class="container trava">
+            <label for="slide" class="toggle" style="background:black; padding:5px 10px 0 15px ;">
+                <i style="color:white; text-shadow: 1px 1px 1px #333" class="fa fa-chevron-right" aria-hidden="true"></i>
+            </label>
+            <nav class="sidebar meio">
+                <ul>
+                    <li>
+                        <a href="#"> início </a>
+                    </li>
+                    <li>
+                        <a href="#"> somethinglo </a>
+                    </li>
+                    <li>
+                        <a href="#"> one </a>
+                    </li>
+                    <li>
+                        <a href="#"> twostreet </a>
+                    </li>
+                    <li>
+                        <a href="#"> threething </a>
+                    </li>
+                    <li>
+                        <a href="#"> stuff </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container text-center align-middle showmepink">
+            <div class="row">
+                <div class="col-12 regular display-4 roboto branco  ">NAME GOES HERE</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid name_title">
+        <div class="container text-center align-middle">
+            <div class="row">
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+                <div class="col-12 text-center">
+                    AAA
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
